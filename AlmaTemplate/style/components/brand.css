@@ -1,0 +1,29 @@
+.brand{
+    width: 100%;
+    background-image: url('../../images/bg-end.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.brand-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0;
+    text-align: center;
+}
+.brand-inner-info h3{
+    color: #f4f4f4;
+    text-indent: 8px;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.brand-inner-info p{
+    font-size: 1.2em;
+    color: #e8aaa0;
+    font-weight: 500;
+}

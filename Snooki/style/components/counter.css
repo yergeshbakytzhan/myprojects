@@ -1,0 +1,46 @@
+.counter{
+    width: 100%;
+    background-image: url('../../images/banner-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+.counter::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    z-index: -1;
+    background: #03030c;
+}
+.counter-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.counter-items{
+    width: 20%;
+    text-align: center;
+    padding: 0 15px;
+}
+.counter-items h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    word-spacing: -10px;
+    margin-bottom: 5px;
+}
+.counter-items h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+}

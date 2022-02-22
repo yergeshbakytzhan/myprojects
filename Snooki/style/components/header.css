@@ -1,0 +1,32 @@
+.header{
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    z-index: 1000;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+.black-logo{
+    display: none;
+}
+.header-inner ul{
+    display: flex;
+    justify-content: center;
+}
+.header-inner ul li{
+    padding-right: 10px;
+}
+.header-inner ul li a{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 8px;
+    text-transform: capitalize;
+}

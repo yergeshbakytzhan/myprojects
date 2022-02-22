@@ -1,0 +1,40 @@
+.main{
+    background-image: url('../../images/intro-alma.jpg');
+    width: 100%;
+    background-size: 100%;
+}
+.main-inner{
+    background-color: rgba(23,23,23,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0 200px;
+}
+.main-inner-content{
+    width: 25%;
+}
+.main-inner-content img{
+    width: 100%;
+}
+.main-inner-content p{
+    color: #fff9f9;
+    font-size: 20px;
+    line-height: 1.45em;
+    margin: 30px 0 100px;
+}
+.main-inner-content a{
+    color: #ffffff;
+    background: #e8aaa0;
+    padding: 13px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    outline: none;
+    letter-spacing: 3px;
+    position: relative;
+}
+.main-inner-content a:hover{
+    top: -2px;
+}

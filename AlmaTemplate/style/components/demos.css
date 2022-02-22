@@ -1,0 +1,98 @@
+.demos{
+    width: 100%;
+    background-image: url('../../images/demo-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 100px 0;
+}
+.demos-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.demos-inner h5{
+    color: #e8aaa0;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.demos-inner h2{
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 45px;
+    letter-spacing: 15px;
+    font-weight: 600;
+}
+.demos-inner-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.demos-inner-cards-details{
+    width: 30%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+.demos-inner-cards-details p{
+    color: #353333;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-indent: 3px;
+    text-overflow: ellipsis;
+}
+.demos-inner-cards-details-bg img{
+    width: 100%;
+    transition: transform .5s ease;
+}
+.demos-inner-cards-details-bg{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .demos-inner-cards-details-fg{
+    position: absolute;
+    width: fit-content;
+    margin: 0 auto;
+    z-index: 3;
+} */
+.demos-inner-cards-details-bg:hover img{
+    transform: scale(1.2);
+    filter: brightness(60%);
+}
+.view-demo{
+    position: absolute;
+    width: fit-content;
+    margin: 0 auto;
+    z-index: 3;
+    background: transparent;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    border: 1px solid rgba(255,255,255,.2);
+    padding: 3px 10px;
+    line-height: 30px;
+    transition: .3s ease;
+    opacity: 0;
+}
+.demos-inner-cards-details-bg:hover .view-demo{
+    opacity: 1;
+}
+.view-demo:hover{
+    background-color: #ffffff;
+    color: #2b2929;
+}
